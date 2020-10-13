@@ -11,3 +11,4 @@ int main()
         printf(" and the char is %c",a);
         return 0;
     }
+

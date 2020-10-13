@@ -8,7 +8,9 @@ int main()
     int age;
     float percentage;
 
-    //scanf("Full Name : %s",&name);
+    /*scanf("Full Name : %s",&name);
+    this is a comment
+    */
     printf("Age : ");scanf("%d",&age);
     printf("Percentage : ");scanf("%f",&percentage);
 
