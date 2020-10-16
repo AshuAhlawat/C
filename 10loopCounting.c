@@ -3,16 +3,17 @@
 int main()
     {
         int a;
-        printf("Enter the no below \n");
+        printf("Enter a no under 20 below \n");
         scanf("%d",&a);
 
-        if (a>10)
+        if (a>20)
             {
-                printf("You entered no. greater than 10\n");
+                printf("You entered no. greater than 20\n");
             }
 
-        for (a; a < 10; a++)
+        while (a < 20)
             {
                 printf("%d\n",a+1);
+                a++;
             }
     }
