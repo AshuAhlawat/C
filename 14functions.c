@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int square(int x)
-{
-    int y = x*x;
-    return y;
-}
+int mathPow(int num,int pow)
+    {
+        int y=num^pow;
+        return y;
+    }
 
 void name(char x){
     int b=45;
@@ -14,8 +14,8 @@ void name(char x){
 int main()
     {
         puts("Calculator");
-        int x;
+        int x;int y;
         scanf("%d",&x);
-        printf("%d",square(x));
         name('a');name('b');
+        printf("%d",mathPow(5,2));
     }
