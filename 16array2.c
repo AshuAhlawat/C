@@ -63,13 +63,17 @@ int main()
         initial[i] = initial[i+1];
     }
 
+    size=size-1;
+    
     //printing final Array 
     printf("\n{");
-    for(int i=0; i < size-1; i++)
+    for(int i=0; i < size; i++)
     {
         printf("%d ",initial[i]);
     }
     printf("}");
+    
+    return 0;
 }
 //DONE DONE DONE
 //CREDITS : Capti/God Himself 
