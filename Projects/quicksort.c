@@ -21,8 +21,6 @@ int *quicksort(int arr[],int size){
         }
     }
 
-    // printarr(newarr,size);
-
     if(checksort(newarr,size)==1){
         printarr(newarr,size);
         for(int i=0; i<size;i++){
